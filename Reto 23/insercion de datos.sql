@@ -89,6 +89,20 @@ values(07563, 'Call of Duty', 'juego de Guerra', 9),
 (63240, 'Crash', 'juego de deprote', 9),
 (63549, 'Dragon Ball', 'juego de baile', 8)
 
+-- PLATAFORMAS
+insert into plataformas (id_plataforma, nombre_plataforma, codigo_videojuego)
+values(1, 'X-BOX', 7563),
+(2, 'Play station', 85421),
+(3, 'PC', 93475),
+(4, 'X-BOX', 15983),
+(5, 'X-BOX', 35784),
+(6, 'Play station', 54682),
+(7, 'PC', 1456),
+(8, 'PC', 70215),
+(9, 'X-BOX', 63240),
+(10, 'Play stattion', 63549)
+
+
 --ESTUDIANTES
 insert into estudiantes (cedula,nombre,apellido,email,fecha_nacimiento, codigo_profesor)
 values (1235476801,'Raul','Martínez','raumart01@gmail.com','04/02/2003',1),
